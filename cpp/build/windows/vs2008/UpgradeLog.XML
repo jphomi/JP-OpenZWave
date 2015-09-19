@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OpenZWave">
+</Property><Property Name="Fichier solution" Value="C:\Users\JP\Documents\GitHub\JP-OpenZWave\cpp\build\windows\vs2008\OpenZWave.sln">
+</Property><Property Name="Date" Value="lundi 14 septembre 2015">
+</Property><Property Name="Time" Value="20:13">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="OpenZWave.sln" Description="Fichier correctement sauvegardé en tant que C:\Users\JP\Documents\GitHub\JP-OpenZWave\cpp\build\windows\vs2008\OpenZWave.sln.old">
+</Event><Event ErrorLevel="0" Project="OpenZWave" Source="OpenZWave.vcproj" Description="Converting project file 'C:\Users\JP\Documents\GitHub\JP-OpenZWave\cpp\build\windows\vs2008\OpenZWave.vcproj'.">
+</Event><Event ErrorLevel="1" Project="OpenZWave" Source="OpenZWave.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="OpenZWave" Source="OpenZWave.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="OpenZWave" Source="OpenZWave.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="OpenZWave" Source="OpenZWave.vcproj" Description="Done converting to new project file 'C:\Users\JP\Documents\GitHub\JP-OpenZWave\cpp\build\windows\vs2008\OpenZWave.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="OpenZWave" Source="OpenZWave.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OpenZWave.sln" Description="Solution correctement convertie">
+</Event><Event ErrorLevel="3" Project="" Source="OpenZWave.sln" Description="Converted">
+</Event></UpgradeLog>
