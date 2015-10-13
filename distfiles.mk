@@ -144,7 +144,9 @@ DISTFILES =	.gitignore \
 	config/popp/123658.xml \
 	config/qees/reto-plugin-switch.xml \
 	config/qubino/ZMNHAA2.xml \
+	config/qubino/ZMNHAD1.xml \
 	config/qubino/ZMNHBA2.xml \
+	config/qubino/ZMNHBD2.xml \
 	config/qubino/ZMNHCA2.xml \
 	config/qubino/ZMNHDA2.xml \
 	config/qubino/ZMNHIA2.xml \
