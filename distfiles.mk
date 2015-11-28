@@ -28,7 +28,9 @@ DISTFILES =	.gitignore \
 	config/act/zrp110.xml \
 	config/act/zrw103.xml \
 	config/aeotec/alms.xml \
+	config/aeotec/doorbell_gen5.xml \
 	config/aeotec/doorwindow.xml \
+	config/aeotec/drycontactsensor.xml \
 	config/aeotec/dsd31.xml \
 	config/aeotec/hdss_gen5.xml \
 	config/aeotec/hem.xml \
@@ -61,6 +63,7 @@ DISTFILES =	.gitignore \
 	config/dragontech/wd-100.xml \
 	config/duwi/ZWES1000.xml \
 	config/duwi/ZWESJ300.xml \
+	config/enerwave/zwn-sc7.xml \
 	config/eurotronic/eur_stellaz.xml \
 	config/everspring/ad146.xml \
 	config/everspring/ad147.xml \
@@ -106,6 +109,7 @@ DISTFILES =	.gitignore \
 	config/greenwave/powernode6.xml \
 	config/homeseer/ezmotionplus.xml \
 	config/homeseer/hsm100.xml \
+	config/homeseer/hsm200.xml \
 	config/homeseer/ztroller.xml \
 	config/honeywell/th8320zw1000.xml \
 	config/horstmann/hrt4zw.xml \
@@ -116,6 +120,8 @@ DISTFILES =	.gitignore \
 	config/leviton/vrf01.xml \
 	config/leviton/vri06.xml \
 	config/leviton/vri10.xml \
+	config/linear/PD300Z-2.xml \
+	config/linear/WD500Z-1.xml \
 	config/manufacturer_specific.xml \
 	config/manufacturer_specific.xsd \
 	config/mcohome/mhs311.xml \
@@ -149,6 +155,7 @@ DISTFILES =	.gitignore \
 	config/qubino/ZMNHBD2.xml \
 	config/qubino/ZMNHCA2.xml \
 	config/qubino/ZMNHDA2.xml \
+	config/qubino/ZMNHDD1.xml \
 	config/qubino/ZMNHIA2.xml \
 	config/qubino/ZMNHJA2.xml \
 	config/rcs/em52-zw.xml \
@@ -164,8 +171,10 @@ DISTFILES =	.gitignore \
 	config/schlagelink/minikeypad.xml \
 	config/swiid/swiidinter.xml \
 	config/swiid/swiidplug.xml \
+	config/thermofloor/multireg.xml \
 	config/trane/TZEMT400AB32MAA.xml \
 	config/trane/TZEMT400BB32MAA.xml \
+	config/vision/cp3102.xml \
 	config/vision/zd2102.xml \
 	config/vision/zm1601eu.xml \
 	config/vision/zm1602eu.xml \
@@ -178,6 +187,7 @@ DISTFILES =	.gitignore \
 	config/wenzhou/tz65d.xml \
 	config/wenzhou/tz66d.xml \
 	config/wenzhou/tz67.xml \
+	config/wenzhou/tz68.xml \
 	config/wenzhou/tz88.xml \
 	config/widom/UBS104.xml \
 	config/widom/UME304C_S.xml \
@@ -196,6 +206,7 @@ DISTFILES =	.gitignore \
 	cpp/build/Makefile \
 	cpp/build/OZW_RunTests.sh \
 	cpp/build/libopenzwave.pc.in \
+	cpp/build/ozw_config.in \
 	cpp/build/sh2ju.sh \
 	cpp/build/support.mk \
 	cpp/build/windows/GIT-VS-VERSION-GEN.bat \
@@ -493,24 +504,20 @@ DISTFILES =	.gitignore \
 	cpp/tinyxml/tinyxml.h \
 	cpp/tinyxml/tinyxmlerror.cpp \
 	cpp/tinyxml/tinyxmlparser.cpp \
-	debian/Makefile \
+	debian/MinOZW.1 \
+	debian/TODO \
 	debian/changelog \
 	debian/compat \
 	debian/control \
 	debian/copyright \
-	debian/format \
+	debian/libopenzwave-doc.doc-base \
 	debian/libopenzwave1.3-dev.install \
 	debian/libopenzwave1.3.install \
-	debian/libopenzwave1.3.links \
 	debian/libopenzwave1.3.lintian-overrides \
 	debian/openzwave.install \
-	debian/patches/series \
-	debian/postinst \
-	debian/postrm \
+	debian/openzwave.manpages \
 	debian/rules \
-	debian/shlibs.libopenzwave1.3 \
 	debian/source/format \
-	debian/version-increment.sh \
 	dist.mk \
 	distfiles.mk \
 	docs/Doxyfile.in \
