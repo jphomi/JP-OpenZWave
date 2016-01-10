@@ -20,6 +20,7 @@ DISTFILES =	.gitignore \
 	config/BeNext/PluginDimmer.xml \
 	config/BeNext/SceneController.xml \
 	config/BeNext/TagReader.xml \
+	config/POP009303.xml \
 	config/act/lfm20.xml \
 	config/act/zdm230.xml \
 	config/act/zdw103.xml \
@@ -64,6 +65,7 @@ DISTFILES =	.gitignore \
 	config/duwi/ZWES1000.xml \
 	config/duwi/ZWESJ300.xml \
 	config/enerwave/zwn-sc7.xml \
+	config/eurotronic/eur_cometz.xml \
 	config/eurotronic/eur_stellaz.xml \
 	config/everspring/ad146.xml \
 	config/everspring/ad147.xml \
@@ -101,6 +103,7 @@ DISTFILES =	.gitignore \
 	config/fibaro/fgsd002.xml \
 	config/fibaro/fgss101.xml \
 	config/fibaro/fgwpe.xml \
+	config/fortrezz/mimolite.xml \
 	config/frostdale/fdn2nxx.xml \
 	config/ge/dimmer.xml \
 	config/ge/dimmer_module.xml \
@@ -130,6 +133,7 @@ DISTFILES =	.gitignore \
 	config/mcohome/mhs411.xml \
 	config/mcohome/mhs412.xml \
 	config/mcohome/mhs513.xml \
+	config/merten/507801.xml \
 	config/merten/50x5xx.xml \
 	config/nodon/asp3100SmartPlug.xml \
 	config/nodon/crc3100OctanRemote.xml \
@@ -148,16 +152,19 @@ DISTFILES =	.gitignore \
 	config/popp/123580.xml \
 	config/popp/123601.xml \
 	config/popp/123658.xml \
+	config/popp/POPE009105.xml \
 	config/qees/reto-plugin-switch.xml \
 	config/qubino/ZMNHAA2.xml \
 	config/qubino/ZMNHAD1.xml \
 	config/qubino/ZMNHBA2.xml \
 	config/qubino/ZMNHBD2.xml \
 	config/qubino/ZMNHCA2.xml \
+	config/qubino/ZMNHCD.xml \
 	config/qubino/ZMNHDA2.xml \
 	config/qubino/ZMNHDD1.xml \
 	config/qubino/ZMNHIA2.xml \
 	config/qubino/ZMNHJA2.xml \
+	config/qubino/ZMNHND1.xml \
 	config/rcs/em52-zw.xml \
 	config/rcs/pm12-zw.xml \
 	config/rcs/therm0005.xml \
@@ -169,12 +176,12 @@ DISTFILES =	.gitignore \
 	config/schlage/BE469NXCEN.xml \
 	config/schlagelink/itemp.xml \
 	config/schlagelink/minikeypad.xml \
+	config/sensative/strips-mazw.xml \
 	config/swiid/swiidinter.xml \
 	config/swiid/swiidplug.xml \
 	config/thermofloor/multireg.xml \
 	config/trane/TZEMT400AB32MAA.xml \
 	config/trane/TZEMT400BB32MAA.xml \
-	config/vision/cp3102.xml \
 	config/vision/zd2102.xml \
 	config/vision/zm1601eu.xml \
 	config/vision/zm1602eu.xml \
@@ -196,7 +203,9 @@ DISTFILES =	.gitignore \
 	config/zwave.me/ZME_05431.xml \
 	config/zwave.me/ZME_06433.xml \
 	config/zwave.me/ZME_06436.xml \
+	config/zwave.me/ZME_064381.xml \
 	config/zwave.me/ZME_064435.xml \
+	config/zwave.me/ZME_KFOB-S.xml \
 	config/zwave.me/ZME_WALLC-S.xml \
 	config/zwave.me/ZME_WCD2.xml \
 	config/zwave.me/iTemp.xml \

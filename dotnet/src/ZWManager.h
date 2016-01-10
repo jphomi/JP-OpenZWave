@@ -394,10 +394,11 @@ namespace OpenZWaveDotNet
 		 * - Controller
 		 * - Enhanced Slave
 		 * - Slave            
-	     * - Installer
-	     * - Routing Slave
-	     * - Bridge Controller
+		 * - Installer
+		 * - Routing Slave
+		 * - Bridge Controller
 		 * - Device Under Test
+		 *
 		 * The controller should never return a slave library type.
 		 * For a more efficient test of whether a controller is a Bridge Controller, use
 		 * the IsBridgeController method.
@@ -1079,6 +1080,16 @@ namespace OpenZWaveDotNet
 		 * \see ValueID::GetType, GetValueAsBool, GetValueAsByte, GetValueAsDecimal, GetValueAsInt, GetValueAsShort, GetValueAsString, GetValueListSelection 
 		 */
 		bool GetValueListItems( ZWValueID^ id, [Out] cli::array<String^>^ %o_value );
+
+		/**
+		 * \brief Gets the list of values from a list value.
+		 *
+		 * \param _id The unique identifier of the value.
+		 * \param o_value Pointer to a vector of integers that will be filled with list items. The vector will be cleared before the items are added.
+		 * \return true if the list values were obtained.  Returns false if the value is not a ValueID::ValueType_List. The type can be tested with a call to ValueID::GetType.
+		 * \see ValueID::GetType, GetValueAsBool, GetValueAsByte, GetValueAsFloat, GetValueAsInt, GetValueAsShort, GetValueAsString, GetValueListSelection, GetValueAsRaw
+		 */
+		bool GetValueListValues( ZWValueID^ id, [Out] cli::array<int>^ %o_value );
 
 		/**
 		 * \brief Sets the state of a bool.
@@ -1849,7 +1860,7 @@ namespace OpenZWaveDotNet
 		
 
 		/**
-		* \brief Dekete a handheld button id.
+		* \brief Delete a handheld button id.
 		*
 		* Only intended for Bridge Firmware Controllers.
 		*
