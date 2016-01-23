@@ -20,7 +20,6 @@ DISTFILES =	.gitignore \
 	config/BeNext/PluginDimmer.xml \
 	config/BeNext/SceneController.xml \
 	config/BeNext/TagReader.xml \
-	config/POP009303.xml \
 	config/act/lfm20.xml \
 	config/act/zdm230.xml \
 	config/act/zdw103.xml \
@@ -152,6 +151,7 @@ DISTFILES =	.gitignore \
 	config/popp/123580.xml \
 	config/popp/123601.xml \
 	config/popp/123658.xml \
+	config/popp/POP009303.xml \
 	config/popp/POPE009105.xml \
 	config/qees/reto-plugin-switch.xml \
 	config/qubino/ZMNHAA2.xml \
@@ -164,6 +164,7 @@ DISTFILES =	.gitignore \
 	config/qubino/ZMNHDD1.xml \
 	config/qubino/ZMNHIA2.xml \
 	config/qubino/ZMNHJA2.xml \
+	config/qubino/ZMNHJD1.xml \
 	config/qubino/ZMNHND1.xml \
 	config/rcs/em52-zw.xml \
 	config/rcs/pm12-zw.xml \
@@ -218,6 +219,9 @@ DISTFILES =	.gitignore \
 	cpp/build/ozw_config.in \
 	cpp/build/sh2ju.sh \
 	cpp/build/support.mk \
+	cpp/build/winRT/vs2015/OpenZWave.sln \
+	cpp/build/winRT/vs2015/OpenZWave.vcxproj \
+	cpp/build/winRT/vs2015/OpenZWave.vcxproj.filters \
 	cpp/build/windows/GIT-VS-VERSION-GEN.bat \
 	cpp/build/windows/installer/buildall.bat \
 	cpp/build/windows/installer/openzwave.nsi \
@@ -465,6 +469,24 @@ DISTFILES =	.gitignore \
 	cpp/src/platform/unix/TimeStampImpl.h \
 	cpp/src/platform/unix/WaitImpl.cpp \
 	cpp/src/platform/unix/WaitImpl.h \
+	cpp/src/platform/winRT/EventImpl.cpp \
+	cpp/src/platform/winRT/EventImpl.h \
+	cpp/src/platform/winRT/FileOpsImpl.cpp \
+	cpp/src/platform/winRT/FileOpsImpl.h \
+	cpp/src/platform/winRT/HidControllerWinRT.cpp \
+	cpp/src/platform/winRT/HidControllerWinRT.h \
+	cpp/src/platform/winRT/LogImpl.cpp \
+	cpp/src/platform/winRT/LogImpl.h \
+	cpp/src/platform/winRT/MutexImpl.cpp \
+	cpp/src/platform/winRT/MutexImpl.h \
+	cpp/src/platform/winRT/SerialControllerImpl.cpp \
+	cpp/src/platform/winRT/SerialControllerImpl.h \
+	cpp/src/platform/winRT/ThreadImpl.cpp \
+	cpp/src/platform/winRT/ThreadImpl.h \
+	cpp/src/platform/winRT/TimeStampImpl.cpp \
+	cpp/src/platform/winRT/TimeStampImpl.h \
+	cpp/src/platform/winRT/WaitImpl.cpp \
+	cpp/src/platform/winRT/WaitImpl.h \
 	cpp/src/platform/windows/EventImpl.cpp \
 	cpp/src/platform/windows/EventImpl.h \
 	cpp/src/platform/windows/FileOpsImpl.cpp \
